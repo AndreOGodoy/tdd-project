@@ -1,0 +1,15 @@
+Ao se utilizar Testes Funcionais e Testes de Unidade no ciclo TDD,
+a estrutura do mesmo passa por uma pequena mudança:
+
+O teste a ser escrito primeiramente é o funcional, isto ajuda a pensar
+em como será a experiência do usuário com o sistema, e arquitetar o mesmo
+em torno da mesma.
+
+Então, ao se deparar com o estado vermelho, o mínimo de código adicionado para fazer
+o teste passar deve conter um "sub-ciclo" TDD, agora com o teste de unidade. Escreve-se
+o teste de unidade e observa-se o mesmo falhar, então o código mínimo que faz o teste
+passar é escrito, e repete-se o processo de código->teste enquanto o mesmo precisar de
+refatoração. Ao fim, retorna-se ao processo de teste do código funcional.
+
+Ou seja, é como se fosse um TDD dentro do outro, o primeiro para a aplicação, e o código mínimo
+é um processo TDD para a funcionalidade a ser implementada.
