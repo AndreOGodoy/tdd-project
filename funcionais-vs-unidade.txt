@@ -1,0 +1,2 @@
+1 - Testes de Unidade testam unidades simples, isoladas, enquanto Testes Funcionais testam blocos baseados por requerimentos do usuário.
+2 - Testes Funcionais são sempre caixa-preta, enquanto os de unidade, não.
